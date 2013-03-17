@@ -1,0 +1,771 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_STR_LEN	batman.h	51;"	d
+ALIGN_POINTER	batman.h	153;"	d
+ALIGN_POINTER	hna.h	/^	struct list_head_first orig_list ALIGN_POINTER;$/;"	m	struct:hna_global_entry	typeref:struct:hna_global_entry::orig_list
+ALIGN_POINTER	hna.h	/^	struct orig_node *curr_orig_node ALIGN_POINTER;$/;"	m	struct:hna_global_entry	typeref:struct:hna_global_entry::curr_orig_node
+ALIGN_WORD	batman.h	152;"	d
+BATMANUNUSED	batman.h	151;"	d
+BATMANUNUSED	bsd/kernel.c	/^int8_t bind_to_iface( int32_t BATMANUNUSED(udp_recv_sock), char *BATMANUNUSED(dev) )$/;"	f
+BATMANUNUSED	bsd/kernel.c	/^void set_rp_filter( int32_t BATMANUNUSED(state), char* BATMANUNUSED(dev) )$/;"	f
+BATMANUNUSED	bsd/route.c	/^		uint32_t BATMANUNUSED(prio), char *BATMANUNUSED(iif), int8_t BATMANUNUSED(dst_rule), int8_t BATMANUNUSED(del) )$/;"	f
+BATMANUNUSED	bsd/route.c	/^int add_del_interface_rules( int8_t BATMANUNUSED(del) )$/;"	f
+BATMANUNUSED	bsd/route.c	/^int flush_routes_rules( int8_t BATMANUNUSED(rt_table) )$/;"	f
+BATMANUNUSED	bsd/tun.c	/^int8_t probe_tun(uint8_t BATMANUNUSED(print_to_stderr))$/;"	f
+BATMANUNUSED	linux/route.c	/^int add_del_interface_rules(int8_t BATMANUNUSED(rule_action))$/;"	f
+BATMANUNUSED	linux/route.c	/^int flush_routes_rules(int8_t BATMANUNUSED(is_rule))$/;"	f
+BATMANUNUSED	linux/route.c	/^void add_del_rule(uint32_t BATMANUNUSED(network), uint8_t BATMANUNUSED(netmask), int8_t BATMANUNUSED(rt_table), uint32_t BATMANUNUSED(prio), char *BATMANUNUSED(iif), int8_t BATMANUNUSED(rule_type), int8_t BATMANUNUSED(rule_action))$/;"	f
+BATMANUNUSED	posix/posix.c	/^void handler( int32_t BATMANUNUSED(sig) ) {$/;"	f
+BATMANUNUSED	posix/posix.c	/^void segmentation_fault(int32_t BATMANUNUSED(sig)) {$/;"	f
+BATMAN_PORT	linux/modules/gateway.h	56;"	d
+BATMAN_PORT	linux/modules/gateway24.h	52;"	d
+BATMAN_RT_PRIO_DEFAULT	batman.h	136;"	d
+BATMAN_RT_PRIO_TUNNEL	batman.h	138;"	d
+BATMAN_RT_PRIO_UNREACH	batman.h	137;"	d
+BATMAN_RT_TABLE_HOSTS	batman.h	132;"	d
+BATMAN_RT_TABLE_NETWORKS	batman.h	131;"	d
+BATMAN_RT_TABLE_TUNNEL	batman.h	134;"	d
+BATMAN_RT_TABLE_UNREACH	batman.h	133;"	d
+BAT_LOGO_END	posix/posix.c	44;"	d	file:
+BAT_LOGO_PRINT	posix/posix.c	43;"	d	file:
+BAT_VERSION	Makefile	/^BAT_VERSION=	$(shell grep "^\\#define SOURCE_VERSION " $(SOURCE_VERSION_HEADER) | sed -e '1p' -n | awk -F '"' '{print $$2}' | awk '{print $$1}')$/;"	m
+BH_UDP_PORTS	batman.h	148;"	d
+BINARY_NAME	Makefile	/^BINARY_NAME=	batmand$/;"	m
+BSD_C	Makefile	/^BSD_C=		bsd\/route.c bsd\/tun.c bsd\/kernel.c bsd\/compat.c$/;"	m
+CC	Makefile	/^CC =		gcc$/;"	m
+CC	linux/modules/Makefile	/^CC:=gcc$/;"	m
+COMPAT_VERSION	batman.h	47;"	d
+DATA_TYPE_HNA	vis-types.h	31;"	d
+DATA_TYPE_NEIGH	vis-types.h	29;"	d
+DATA_TYPE_SEC_IF	vis-types.h	30;"	d
+DBG	linux/modules/gateway.h	66;"	d
+DBG	linux/modules/gateway24.h	62;"	d
+DEFAULT_ROUTING_CLASS	batman.h	96;"	d
+DIRECTLINK	batman.h	50;"	d
+DRIVER_AUTHOR	linux/modules/gateway.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	linux/modules/gateway.h	24;"	d
+DRIVER_AUTHOR	linux/modules/gateway24.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	linux/modules/gateway24.h	24;"	d
+DRIVER_AUTHOR	linux/modules/mod_batman.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	linux/modules/mod_batman.c	30;"	d	file:
+DRIVER_DESC	linux/modules/gateway.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	linux/modules/gateway.h	25;"	d
+DRIVER_DESC	linux/modules/gateway24.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	linux/modules/gateway24.h	25;"	d
+DRIVER_DESC	linux/modules/mod_batman.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	linux/modules/mod_batman.c	31;"	d	file:
+DRIVER_DEVICE	linux/modules/gateway.c	/^MODULE_SUPPORTED_DEVICE(DRIVER_DEVICE);$/;"	v
+DRIVER_DEVICE	linux/modules/gateway.h	26;"	d
+DRIVER_DEVICE	linux/modules/gateway24.c	/^MODULE_SUPPORTED_DEVICE(DRIVER_DEVICE);$/;"	v
+DRIVER_DEVICE	linux/modules/gateway24.h	26;"	d
+DRIVER_DEVICE	linux/modules/mod_batman.c	/^MODULE_SUPPORTED_DEVICE(DRIVER_DEVICE);$/;"	v
+DRIVER_DEVICE	linux/modules/mod_batman.c	32;"	d	file:
+EXTRA_CFLAGS	Makefile	/^EXTRA_CFLAGS =	-DDEBUG_MALLOC -DMEMORY_USAGE -DPROFILE_DATA $(NO_POLICY_ROUTING) -DREVISION_VERSION=$(REVISION_VERSION)$/;"	m
+FILE_NAME	Makefile	/^FILE_NAME=	$(PACKAGE_NAME)_$(BAT_VERSION)-rv$(REVISION)_$@$/;"	m
+GW_PORT	batman.h	49;"	d
+GW_STATE_UNKNOWN	posix/tunnel.c	53;"	d	file:
+GW_STATE_UNKNOWN_TIMEOUT	posix/tunnel.c	56;"	d	file:
+GW_STATE_VERIFIED	posix/tunnel.c	54;"	d	file:
+GW_STATE_VERIFIED_TIMEOUT	posix/tunnel.c	57;"	d	file:
+INCLUDE	linux/modules/Makefile	/^INCLUDE:=-I\/lib\/modules\/$(UNAME)\/build\/include -I\/usr\/src\/kernel-headers-$(UNAME)\/include$/;"	m
+INIT_LIST_HEAD	list-batman.h	62;"	d
+INIT_LIST_HEAD_FIRST	list-batman.h	66;"	d
+IOCGETNWDEV	linux/kernel.c	37;"	d	file:
+IOCGETNWDEV	linux/modules/mod_batman.c	28;"	d	file:
+IOCREMDEV	linux/modules/gateway.h	52;"	d
+IOCREMDEV	linux/modules/gateway24.h	48;"	d
+IOCREMDEV	posix/posix.c	45;"	d	file:
+IOCSETDEV	linux/modules/gateway.h	51;"	d
+IOCSETDEV	linux/modules/gateway24.h	47;"	d
+IOCSETDEV	posix/init.c	44;"	d	file:
+IPTABLES_ADD_ACC	linux/tun.c	43;"	d	file:
+IPTABLES_ADD_MASQ	linux/tun.c	40;"	d	file:
+IPTABLES_DEL_ACC	linux/tun.c	44;"	d	file:
+IPTABLES_DEL_MASQ	linux/tun.c	41;"	d	file:
+IP_LEASE_TIMEOUT	posix/tunnel.c	59;"	d	file:
+JITTER	batman.h	82;"	d
+KERNELPATH	linux/modules/Makefile	/^KERNELPATH = \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+LEASE_TIME	linux/modules/gateway.h	64;"	d
+LEASE_TIME	linux/modules/gateway24.h	60;"	d
+LINUX	linux/modules/gateway.h	22;"	d
+LINUX	linux/modules/gateway24.h	22;"	d
+LINUX	linux/modules/mod_batman.c	25;"	d	file:
+LINUX26	linux/modules/Makefile	/^LINUX26=2.6$/;"	m
+LINUX_VERSION	linux/modules/Makefile	/^LINUX_VERSION:=$(findstring $(LINUX26),$(UNAME))$/;"	m
+LIST_HEAD	list-batman.h	32;"	d
+LOG_BRANCH	Makefile	/^LOG_BRANCH=	trunk\/batman$/;"	m
+MAGIC_NUMBER	allocate.c	32;"	d	file:
+MAX_AGGREGATION_BYTES	batman.h	99;"	d
+MAX_AGGREGATION_MS	batman.h	100;"	d
+Major	linux/modules/gateway.c	/^static int Major;					\/* Major number assigned to our device driver *\/$/;"	v	file:
+Major	linux/modules/gateway24.c	/^static int Major;$/;"	v	file:
+Major	linux/modules/mod_batman.c	/^static int Major;                  \/* Major number assigned to our device driver *\/$/;"	v	file:
+NO_RETURN	os.h	28;"	d
+NO_RETURN	os.h	30;"	d
+NUM_CPUS	Makefile	/^NUM_CPUS = $(shell NUM_CPUS=`cat \/proc\/cpuinfo | grep -v 'model name' | grep processor | tail -1 | awk -F' ' '{print $$3}'`;echo `expr $$NUM_CPUS + 1`)$/;"	m
+OS_C	Makefile	/^OS_C=		$(BSD_C) $(POSIX_C)$/;"	m
+OS_C	Makefile	/^OS_C=		linux\/route.c linux\/tun.c linux\/kernel.c $(POSIX_C)$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME=	batmand$/;"	m
+PORT	batman.h	48;"	d
+POSIX_C	Makefile	/^POSIX_C=	posix\/init.c posix\/posix.c posix\/tunnel.c posix\/unix_socket.c$/;"	m
+PROC_FILE_CLIENTS	linux/modules/gateway.h	69;"	d
+PROC_FILE_CLIENTS	linux/modules/gateway24.h	75;"	d
+PROC_ROOT_DIR	linux/modules/gateway.h	68;"	d
+PROC_ROOT_DIR	linux/modules/gateway24.h	74;"	d
+PROF_COUNT	profile.h	/^	PROF_COUNT$/;"	e	enum:__anon1
+PROF_choose_gw	profile.h	/^	PROF_choose_gw,$/;"	e	enum:__anon1
+PROF_get_orig_node	profile.h	/^	PROF_get_orig_node,$/;"	e	enum:__anon1
+PROF_is_duplicate	profile.h	/^	PROF_is_duplicate,$/;"	e	enum:__anon1
+PROF_purge_originator	profile.h	/^	PROF_purge_originator,$/;"	e	enum:__anon1
+PROF_schedule_forward_packet	profile.h	/^	PROF_schedule_forward_packet,$/;"	e	enum:__anon1
+PROF_send_outstanding_packets	profile.h	/^	PROF_send_outstanding_packets,$/;"	e	enum:__anon1
+PROF_update_gw_list	profile.h	/^	PROF_update_gw_list,$/;"	e	enum:__anon1
+PROF_update_originator	profile.h	/^	PROF_update_originator,$/;"	e	enum:__anon1
+PROF_update_routes	profile.h	/^	PROF_update_routes,$/;"	e	enum:__anon1
+PURGE_TIMEOUT	batman.h	84;"	d
+PWD	linux/modules/Makefile	/^PWD:=$(shell pwd)$/;"	m
+Q_CC	Makefile	/^	Q_CC = @echo '   ' CC $@;$/;"	m
+Q_LD	Makefile	/^	Q_LD = @echo '   ' LD $@;$/;"	m
+REVISION	Makefile	/^REVISION:=	$(shell if [ -d .svn ]; then svn info | grep "Rev:" | sed -e '1p' -n | awk '{print $$4}'; else if [ -d ~\/.svk ]; then echo $$(svk info | grep "Mirrored From" | awk '{print $$5}'); fi; fi)$/;"	m
+REVISION	linux/modules/Makefile	/^REVISION:=	$(shell if [ -d .svn ]; then \\$/;"	m
+REVISION_VERSION	Makefile	/^REVISION_VERSION=\\"\\ rv$(REVISION)\\"$/;"	m
+REVISION_VERSION	batman.h	70;"	d
+REVISION_VERSION	linux/modules/gateway.h	72;"	d
+REVISION_VERSION	linux/modules/gateway24.h	78;"	d
+ROUTE_ADD	batman.h	106;"	d
+ROUTE_DEL	batman.h	107;"	d
+ROUTE_TYPE_THROW	batman.h	103;"	d
+ROUTE_TYPE_UNICAST	batman.h	102;"	d
+ROUTE_TYPE_UNKNOWN	batman.h	105;"	d
+ROUTE_TYPE_UNREACHABLE	batman.h	104;"	d
+RULE_ADD	batman.h	112;"	d
+RULE_DEL	batman.h	113;"	d
+RULE_TYPE_DST	batman.h	110;"	d
+RULE_TYPE_IIF	batman.h	111;"	d
+RULE_TYPE_SRC	batman.h	109;"	d
+SBINDIR	Makefile	/^SBINDIR =	$(INSTALL_PREFIX)\/usr\/sbin$/;"	m
+SIOCGIWNAME	linux/kernel.c	40;"	d	file:
+SOURCE_VERSION	batman.h	46;"	d
+SOURCE_VERSION_HEADER	Makefile	/^SOURCE_VERSION_HEADER= batman.h$/;"	m
+SRC_C	Makefile	/^SRC_C= batman.c originator.c schedule.c list-batman.c allocate.c bitarray.c hash.c profile.c ring_buffer.c hna.c $(OS_C)$/;"	m
+SRC_FILES	Makefile	/^SRC_FILES=	"\\(\\.c\\)\\|\\(\\.h\\)\\|\\(Makefile\\)\\|\\(INSTALL\\)\\|\\(LIESMICH\\)\\|\\(README\\)\\|\\(THANKS\\)\\|\\(TRASH\\)\\|\\(Doxyfile\\)\\|\\(.\/posix\\)\\|\\(.\/linux\\)\\|\\(.\/bsd\\)\\|\\(.\/man\\)\\|\\(.\/doc\\)"$/;"	m
+SRC_H	Makefile	/^SRC_H= batman.h originator.h schedule.h list-batman.h os.h allocate.h bitarray.h hash.h profile.h vis-types.h ring_buffer.h hna.h$/;"	m
+SRC_O	Makefile	/^SRC_O= $(SRC_C:.c=.o)$/;"	m
+SUCCESS	linux/modules/mod_batman.c	27;"	d	file:
+TARGET	linux/modules/Makefile	/^TARGET:=batgat$/;"	m
+TQ_GLOBAL_WINDOW_SIZE	batman.h	86;"	d
+TQ_HOP_PENALTY	batman.h	95;"	d
+TQ_LOCAL_BIDRECT_RECV_MINIMUM	batman.h	88;"	d
+TQ_LOCAL_BIDRECT_SEND_MINIMUM	batman.h	87;"	d
+TQ_LOCAL_WINDOW_SIZE	batman.h	85;"	d
+TQ_MAX_VALUE	batman.h	52;"	d
+TQ_TOTAL_BIDRECT_LIMIT	batman.h	89;"	d
+TRANSPORT_PACKET_SIZE	linux/modules/gateway.h	54;"	d
+TRANSPORT_PACKET_SIZE	linux/modules/gateway24.h	50;"	d
+TTL	batman.h	83;"	d
+TUNNEL_DATA	linux/modules/gateway.h	58;"	d
+TUNNEL_DATA	linux/modules/gateway24.h	54;"	d
+TUNNEL_DATA	posix/tunnel.c	47;"	d	file:
+TUNNEL_IP_INVALID	linux/modules/gateway.h	60;"	d
+TUNNEL_IP_INVALID	linux/modules/gateway24.h	56;"	d
+TUNNEL_IP_INVALID	posix/tunnel.c	49;"	d	file:
+TUNNEL_IP_REQUEST	linux/modules/gateway.h	59;"	d
+TUNNEL_IP_REQUEST	linux/modules/gateway24.h	55;"	d
+TUNNEL_IP_REQUEST	posix/tunnel.c	48;"	d	file:
+TUNNEL_KEEPALIVE_REPLY	linux/modules/gateway.h	62;"	d
+TUNNEL_KEEPALIVE_REPLY	linux/modules/gateway24.h	58;"	d
+TUNNEL_KEEPALIVE_REPLY	posix/tunnel.c	51;"	d	file:
+TUNNEL_KEEPALIVE_REQUEST	linux/modules/gateway.h	61;"	d
+TUNNEL_KEEPALIVE_REQUEST	linux/modules/gateway24.h	57;"	d
+TUNNEL_KEEPALIVE_REQUEST	posix/tunnel.c	50;"	d	file:
+TYPE_OF_WORD	batman.h	34;"	d
+UNAME	Makefile	/^UNAME=		$(shell uname)$/;"	m
+UNAME	linux/modules/Makefile	/^UNAME:=$(shell uname -r)$/;"	m
+UNIX_PATH	batman.h	54;"	d
+VIP_BUFFER_SIZE	linux/modules/gateway.h	55;"	d
+VIP_BUFFER_SIZE	linux/modules/gateway24.h	51;"	d
+VIS_COMPAT_VERSION	vis-types.h	27;"	d
+WORD_BIT_SIZE	bitarray.h	25;"	d
+_ALLOCATE_H	allocate.h	24;"	d
+_BATMAN_BATMAN_H	batman.h	25;"	d
+_BATMAN_HASH_H	hash.h	22;"	d
+_BATMAN_HASH_H	linux/modules/hash.h	27;"	d
+_BATMAN_OS_H	os.h	23;"	d
+_GNU_SOURCE	linux/route.c	24;"	d	file:
+_GNU_SOURCE	posix/unix_socket.c	24;"	d	file:
+_LINUX_LIST_H	list-batman.h	26;"	d
+__list_add	list-batman.c	/^static void __list_add( struct list_head *new, struct list_head *prev, struct list_head *next ) {$/;"	f	file:
+__list_del	list-batman.c	/^static void __list_del( struct list_head *prev, struct list_head *next ) {$/;"	f	file:
+_hna_global_add	hna.c	/^static void _hna_global_add(struct orig_node *orig_node, struct hna_element *hna_element)$/;"	f	file:
+_hna_global_del	hna.c	/^static void _hna_global_del(struct orig_node *orig_node, struct hna_element *hna_element)$/;"	f	file:
+_hna_global_hash_del	hna.c	/^static void _hna_global_hash_del(void *data)$/;"	f	file:
+activate_interface	posix/init.c	/^static void activate_interface(struct batman_if *batman_if)$/;"	f	file:
+active_ifs	batman.c	/^uint8_t active_ifs = 0;$/;"	v
+addMemory	allocate.c	/^static void addMemory( uint32_t length, int32_t tag ) {$/;"	f	file:
+add_default_route	posix/posix.c	/^void add_default_route(void)$/;"	f
+add_del_interface_rules	linux/route.c	/^int add_del_interface_rules(int8_t rule_action)$/;"	f
+add_del_route	bsd/route.c	/^void add_del_route(uint32_t dest, uint8_t netmask, uint32_t router, uint32_t BATMANUNUSED(src_ip),$/;"	f
+add_del_route	linux/route.c	/^void add_del_route(uint32_t dest, uint8_t netmask, uint32_t router, uint32_t src_ip, int32_t ifi, char *dev, uint8_t rt_table, int8_t route_type, int8_t route_action)$/;"	f
+add_del_rule	linux/route.c	/^void add_del_rule(uint32_t network, uint8_t netmask, int8_t rt_table, uint32_t prio, char *iif, int8_t rule_type, int8_t rule_action)$/;"	f
+add_dev_tun	bsd/tun.c	/^int8_t add_dev_tun(struct batman_if *batman_if, uint32_t tun_addr,$/;"	f
+add_dev_tun	linux/tun.c	/^int8_t add_dev_tun( struct batman_if *batman_if, uint32_t tun_addr, char *tun_dev, size_t tun_dev_size, int32_t *fd, int32_t *ifi ) {$/;"	f
+add_nat_rule	bsd/tun.c	/^void add_nat_rule(char *BATMANUNUSED(dev)) {$/;"	f
+add_nat_rule	linux/tun.c	/^void add_nat_rule(char *dev) {$/;"	f
+addr	batman.h	/^	struct sockaddr_in addr;$/;"	m	struct:batman_if	typeref:struct:batman_if::sockaddr_in
+addr	batman.h	/^	struct sockaddr_in addr;$/;"	m	struct:vis_if	typeref:struct:vis_if::sockaddr_in
+addr	batman.h	/^	struct sockaddr_un addr;$/;"	m	struct:unix_if	typeref:struct:unix_if::sockaddr_un
+addr	batman.h	/^	uint32_t addr;$/;"	m	struct:free_ip
+addr	batman.h	/^	uint32_t addr;$/;"	m	struct:neigh_node
+addr	hna.h	/^	uint32_t addr;$/;"	m	struct:hna_element
+addr	hna.h	/^	uint32_t addr;$/;"	m	struct:hna_global_entry
+addr	hna.h	/^	uint32_t addr;$/;"	m	struct:hna_local_entry
+addr	hna.h	/^	uint32_t addr;$/;"	m	struct:hna_task
+addr_out	linux/modules/mod_batman.c	/^	struct sockaddr_in addr_out;$/;"	m	struct:minor	typeref:struct:minor::sockaddr_in	file:
+addr_to_string	posix/posix.c	/^void addr_to_string( uint32_t addr, char *str, int32_t len ) {$/;"	f
+aggregation_enabled	batman.c	/^uint8_t aggregation_enabled = 1;$/;"	v
+apply_init_args	posix/init.c	/^void apply_init_args( int argc, char *argv[] ) {$/;"	f
+bat_netdev_close	linux/modules/gateway.c	/^static int bat_netdev_close( struct net_device *dev )$/;"	f	file:
+bat_netdev_close	linux/modules/gateway24.c	/^static int bat_netdev_close( struct net_device *dev )$/;"	f	file:
+bat_netdev_open	linux/modules/gateway.c	/^static int bat_netdev_open( struct net_device *dev )$/;"	f	file:
+bat_netdev_open	linux/modules/gateway24.c	/^static int bat_netdev_open( struct net_device *dev )$/;"	f	file:
+bat_netdev_setup	linux/modules/gateway.c	/^static void bat_netdev_setup( struct net_device *dev )$/;"	f	file:
+bat_netdev_setup	linux/modules/gateway24.c	/^static int bat_netdev_setup( struct net_device *dev )$/;"	f	file:
+bat_netdev_xmit	linux/modules/gateway.c	/^static int bat_netdev_xmit( struct sk_buff *skb, struct net_device *dev )$/;"	f	file:
+bat_netdev_xmit	linux/modules/gateway24.c	/^static int bat_netdev_xmit( struct sk_buff *skb, struct net_device *dev )$/;"	f	file:
+bat_packet	batman.h	/^struct bat_packet$/;"	s
+bat_wait	posix/posix.c	/^static void bat_wait( int32_t T, int32_t t ) {$/;"	f	file:
+batgat_ioc_args	batman.h	/^struct batgat_ioc_args {$/;"	s
+batgat_ioc_args	linux/modules/gateway.h	/^struct batgat_ioc_args {$/;"	s
+batgat_ioc_args	linux/modules/gateway24.h	/^struct batgat_ioc_args {$/;"	s
+batgat_ioctl	linux/modules/gateway.c	/^static int batgat_ioctl( struct inode *inode, struct file *file, unsigned int cmd, unsigned long arg )$/;"	f	file:
+batgat_ioctl	linux/modules/gateway24.c	/^static int batgat_ioctl( struct inode *inode, struct file *file, unsigned int cmd, unsigned long arg )$/;"	f	file:
+batgat_open	linux/modules/gateway.c	/^static int batgat_open(struct inode *inode, struct file *filp)$/;"	f	file:
+batgat_open	linux/modules/gateway24.c	/^static int batgat_open(struct inode *inode, struct file *filp)$/;"	f	file:
+batgat_release	linux/modules/gateway.c	/^static int batgat_release(struct inode *inode, struct file *file)$/;"	f	file:
+batgat_release	linux/modules/gateway24.c	/^static int batgat_release(struct inode *inode, struct file *file)$/;"	f	file:
+batman	batman.c	/^int8_t batman(void)$/;"	f
+batman_class	linux/modules/gateway.c	/^static struct class *batman_class;$/;"	v	typeref:struct:class	file:
+batman_class	linux/modules/mod_batman.c	/^	static struct class *batman_class;$/;"	v	typeref:struct:class	file:
+batman_clock_mutex	posix/posix.c	/^static pthread_mutex_t batman_clock_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+batman_clock_ticks	batman.c	/^uint64_t batman_clock_ticks = 0;$/;"	v
+batman_if	batman.h	/^	struct batman_if *batman_if;$/;"	m	struct:curr_gw_data	typeref:struct:curr_gw_data::batman_if
+batman_if	batman.h	/^	struct batman_if *batman_if;$/;"	m	struct:orig_node	typeref:struct:orig_node::batman_if
+batman_if	batman.h	/^struct batman_if$/;"	s
+bcast_own	batman.h	/^	TYPE_OF_WORD *bcast_own;$/;"	m	struct:orig_node
+bcast_own_sum	batman.h	/^	uint8_t *bcast_own_sum;$/;"	m	struct:orig_node
+bh_udp_ports	posix/tunnel.c	/^unsigned short bh_udp_ports[] = BH_UDP_PORTS;$/;"	v
+bind_to_iface	linux/kernel.c	/^int8_t bind_to_iface(int32_t sock, char *dev)$/;"	f
+bit_count	bitarray.c	/^uint8_t bit_count( int32_t to_count ) {$/;"	f
+bit_get_packet	bitarray.c	/^char bit_get_packet( TYPE_OF_WORD *seq_bits, int16_t seq_num_diff, int8_t set_mark ) {$/;"	f
+bit_init	bitarray.c	/^void bit_init( TYPE_OF_WORD *seq_bits ) {$/;"	f
+bit_mark	bitarray.c	/^void bit_mark( TYPE_OF_WORD *seq_bits, int32_t n ) {$/;"	f
+bit_packet_count	bitarray.c	/^int bit_packet_count( TYPE_OF_WORD *seq_bits ) {$/;"	f
+bit_shift	bitarray.c	/^void bit_shift( TYPE_OF_WORD *seq_bits, int32_t n ) {$/;"	f
+broad	batman.h	/^	struct sockaddr_in broad;$/;"	m	struct:batman_if	typeref:struct:batman_if::sockaddr_in
+bucket	hash.h	/^	struct element_t *bucket;$/;"	m	struct:hash_it_t	typeref:struct:hash_it_t::element_t
+bucket	linux/modules/hash.h	/^	struct element_t *bucket;$/;"	m	struct:hash_it_t	typeref:struct:hash_it_t::element_t
+calls	profile.h	/^	uint64_t calls;$/;"	m	struct:prof_container
+checkIntegrity	allocate.c	/^void checkIntegrity(void)$/;"	f
+checkLeak	allocate.c	/^void checkLeak(void)$/;"	f
+checkPadding	allocate.c	/^static int checkPadding(unsigned char* padding, size_t length) {$/;"	f	file:
+check_active_interfaces	posix/init.c	/^void check_active_interfaces(void)$/;"	f
+check_inactive_interfaces	posix/init.c	/^void check_inactive_interfaces(void)$/;"	f
+choose	hash.h	/^	hashdata_choose_cb choose;					\/* the hashfunction, should return an index based$/;"	m	struct:hashtable_t
+choose	linux/modules/hash.h	/^	hashdata_choose_cb choose;					\/* the hashfunction, should return an index based$/;"	m	struct:hashtable_t
+choose_gw	batman.c	/^void choose_gw(void)$/;"	f
+choose_hna	hna.c	/^int choose_hna(void *data, int32_t size)$/;"	f
+choose_orig	originator.c	/^int choose_orig( void *data, int32_t size ) {$/;"	f
+choose_vip	linux/modules/gateway.c	/^int choose_vip(void *data, int32_t size)$/;"	f
+choose_vip	linux/modules/gateway24.c	/^int choose_vip(void *data, int32_t size)$/;"	f
+choose_vip	posix/tunnel.c	/^static int choose_vip(void *data, int32_t size)$/;"	f	file:
+choose_wip	linux/modules/gateway.c	/^int choose_wip(void *data, int32_t size)$/;"	f
+choose_wip	linux/modules/gateway24.c	/^int choose_wip(void *data, int32_t size)$/;"	f
+choose_wip	posix/tunnel.c	/^static int choose_wip(void *data, int32_t size)$/;"	f	file:
+chunkHeader	allocate.c	/^struct chunkHeader$/;"	s	file:
+chunkList	allocate.c	/^struct chunkHeader *chunkList = NULL;$/;"	v	typeref:struct:chunkHeader
+chunkTrailer	allocate.c	/^struct chunkTrailer$/;"	s	file:
+chunk_mutex	allocate.c	/^static pthread_mutex_t chunk_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+cleanup	posix/posix.c	/^void cleanup(void) {$/;"	f
+cleanup_module	linux/modules/gateway.c	/^void cleanup_module(void)$/;"	f
+cleanup_module	linux/modules/gateway24.c	/^void cleanup_module(void)$/;"	f
+cleanup_module	linux/modules/mod_batman.c	/^void cleanup_module( void ) {$/;"	f
+cleanup_procfs	linux/modules/gateway.c	/^static void cleanup_procfs(void)$/;"	f	file:
+client_list	batman.h	/^	struct list_head_first client_list;$/;"	m	struct:unix_if	typeref:struct:unix_if::list_head_first
+client_port	batman.h	/^	uint16_t client_port;$/;"	m	struct:gw_client
+client_port	linux/modules/gateway.h	/^	uint16_t client_port;$/;"	m	struct:gw_client
+client_port	linux/modules/gateway24.h	/^	uint16_t client_port;$/;"	m	struct:gw_client
+client_to_gw_tun	posix/tunnel.c	/^void *client_to_gw_tun(void *arg)$/;"	f
+clients_file	linux/modules/gateway.c	/^static struct proc_dir_entry *proc_dir, *clients_file;$/;"	v	typeref:struct:	file:
+clients_num	batman.h	/^	int16_t *clients_num;$/;"	m	struct:debug_clients
+compare	hash.h	/^	hashdata_compare_cb compare;			    \/* callback to a compare function.$/;"	m	struct:hashtable_t
+compare	linux/modules/hash.h	/^	hashdata_compare_cb compare;			    \/* callback to a compare function.$/;"	m	struct:hashtable_t
+compare_hna	hna.c	/^int compare_hna(void *data1, void *data2)$/;"	f
+compare_orig	originator.c	/^int compare_orig( void *data1, void *data2 )$/;"	f
+compare_vip	linux/modules/gateway.c	/^int compare_vip(void *data1, void *data2)$/;"	f
+compare_vip	linux/modules/gateway24.c	/^int compare_vip(void *data1, void *data2)$/;"	f
+compare_vip	posix/tunnel.c	/^static int compare_vip(void *data1, void *data2)$/;"	f	file:
+compare_wip	linux/modules/gateway.c	/^int compare_wip(void *data1, void *data2)$/;"	f
+compare_wip	linux/modules/gateway24.c	/^int compare_wip(void *data1, void *data2)$/;"	f
+compare_wip	posix/tunnel.c	/^static int compare_wip(void *data1, void *data2)$/;"	f	file:
+count_real_packets	batman.c	/^static uint8_t count_real_packets(struct bat_packet *in, uint32_t neigh, struct batman_if *if_incoming)$/;"	f	file:
+counter	allocate.c	/^	uint32_t counter;$/;"	m	struct:memoryUsage	file:
+create_bat_netdev	linux/modules/gateway.c	/^static int create_bat_netdev(void)$/;"	f	file:
+create_bat_netdev	linux/modules/gateway24.c	/^static int create_bat_netdev(void)$/;"	f	file:
+create_neighbor	originator.c	/^struct neigh_node * create_neighbor(struct orig_node *orig_node, struct orig_node *orig_neigh_node, uint32_t neigh, struct batman_if *if_incoming) {$/;"	f
+create_routing_pipe	posix/init.c	/^static void create_routing_pipe(void)$/;"	f	file:
+curr_gateway	batman.c	/^struct gw_node *curr_gateway = NULL;$/;"	v	typeref:struct:gw_node
+curr_gateway_thread_id	batman.c	/^pthread_t curr_gateway_thread_id = 0;$/;"	v
+curr_gw_data	batman.h	/^struct curr_gw_data {$/;"	s
+data	hash.h	/^	void *data;						\/* pointer to the data *\/$/;"	m	struct:element_t
+data	linux/modules/hash.h	/^	void *data;						\/* pointer to the data *\/$/;"	m	struct:element_t
+data	vis-types.h	/^	uint8_t data;$/;"	m	struct:vis_data
+data_ready_cond	linux/modules/gateway.c	/^atomic_t data_ready_cond;$/;"	v
+data_ready_cond	linux/modules/gateway24.c	/^atomic_t data_ready_cond;$/;"	v
+deactivate_interface	posix/init.c	/^void deactivate_interface(struct batman_if *batman_if)$/;"	f
+debugFree	allocate.c	/^void debugFree(void *memory, int32_t tag)$/;"	f
+debugFree	allocate.c	/^void debugFree(void *memoryParameter, int tag)$/;"	f
+debugMalloc	allocate.c	/^void *debugMalloc(uint32_t length, int32_t tag)$/;"	f
+debugRealloc	allocate.c	/^void *debugRealloc(void *memory, uint32_t length, int32_t tag)$/;"	f
+debugRealloc	allocate.c	/^void *debugRealloc(void *memoryParameter, uint32_t length, int32_t tag)$/;"	f
+debug_clients	batman.c	/^struct debug_clients debug_clients;$/;"	v	typeref:struct:debug_clients
+debug_clients	batman.h	/^struct debug_clients {$/;"	s
+debug_level	batman.c	/^uint8_t debug_level = 0;$/;"	v
+debug_level	batman.h	/^	uint8_t debug_level;$/;"	m	struct:unix_client
+debug_level_info	batman.h	/^struct debug_level_info {$/;"	s
+debug_level_max	batman.c	/^uint8_t debug_level_max = 4;$/;"	v
+debug_level_max	batman.c	/^uint8_t debug_level_max = 5;$/;"	v
+debug_orig	originator.c	/^void debug_orig(void) {$/;"	f
+debug_output	posix/unix_socket.c	/^void debug_output(int8_t debug_prio, char *format, ...) {$/;"	f
+del_default_route	posix/posix.c	/^void del_default_route(void)$/;"	f
+del_dev_tun	bsd/tun.c	/^int8_t del_dev_tun(int32_t fd)$/;"	f
+del_dev_tun	linux/tun.c	/^int8_t del_dev_tun( int32_t fd ) {$/;"	f
+del_gw_interface	posix/posix.c	/^void del_gw_interface(void)$/;"	f
+del_nat_rule	bsd/tun.c	/^void del_nat_rule(char *BATMANUNUSED(dev)) {$/;"	f
+del_nat_rule	linux/tun.c	/^void del_nat_rule(char *dev) {$/;"	f
+deleted	batman.h	/^	uint32_t deleted;$/;"	m	struct:gw_node
+dest	bsd/route.c	/^	struct sockaddr_in dest;$/;"	m	struct:rt_msg	typeref:struct:rt_msg::sockaddr_in	file:
+dev	batman.h	/^	char *dev;$/;"	m	struct:batman_if
+dev_name	batman.h	/^	char dev_name[16];$/;"	m	struct:batgat_ioc_args
+dev_name	linux/modules/gateway.h	/^	char dev_name[IFNAMSIZ];$/;"	m	struct:batgat_ioc_args
+dev_name	linux/modules/gateway24.h	/^	char dev_name[IFNAMSIZ];$/;"	m	struct:batgat_ioc_args
+device_create	linux/modules/compat26.h	51;"	d
+device_create	linux/modules/compat26.h	60;"	d
+device_destroy	linux/modules/compat26.h	54;"	d
+device_ioctl	linux/modules/mod_batman.c	/^static int device_ioctl( struct inode *inode, struct file *file, unsigned int cmd, unsigned long arg ) {$/;"	f	file:
+device_open	linux/modules/mod_batman.c	/^static int device_open( struct inode *inode, struct file *file ) {$/;"	f	file:
+device_release	linux/modules/mod_batman.c	/^static int device_release( struct inode *inode, struct file *file ) {$/;"	f	file:
+device_write	linux/modules/mod_batman.c	/^static ssize_t device_write( struct file *file, const char *buff, size_t len, loff_t *off ) {$/;"	f	file:
+direct_link_flags	batman.h	/^	uint32_t direct_link_flags;$/;"	m	struct:forw_node
+disable_client_nat	batman.c	/^int8_t disable_client_nat = 0;$/;"	v
+dprintf	bsd/compat.c	/^int dprintf(int d, const char *format, ...)$/;"	f
+dummy_tms_struct	posix/posix.c	/^static struct tms dummy_tms_struct;$/;"	v	typeref:struct:tms	file:
+element_t	hash.h	/^struct element_t {$/;"	s
+element_t	linux/modules/hash.h	/^struct element_t {$/;"	s
+elements	hash.h	/^	int elements;								\/* number of elements registered *\/$/;"	m	struct:hashtable_t
+elements	linux/modules/hash.h	/^	int elements;								\/* number of elements registered *\/$/;"	m	struct:hashtable_t
+exec_iptables_rule	linux/tun.c	/^void exec_iptables_rule(char *cmd, int8_t route_action) {$/;"	f
+exists	batman.h	/^	unsigned char exists;$/;"	m	struct:batgat_ioc_args
+exists	linux/modules/gateway.h	/^	unsigned char exists;$/;"	m	struct:batgat_ioc_args
+exists	linux/modules/gateway24.h	/^	unsigned char exists;$/;"	m	struct:batgat_ioc_args
+exit_cond	linux/modules/gateway.c	/^atomic_t exit_cond;$/;"	v
+fd	batman.h	/^	int32_t fd;$/;"	m	struct:debug_level_info
+fd_list	batman.h	/^	void **fd_list;$/;"	m	struct:debug_clients
+fillPadding	allocate.c	/^static void fillPadding(unsigned char* padding, size_t length) {$/;"	f	file:
+first_bucket	hash.h	/^	struct element_t **first_bucket;$/;"	m	struct:hash_it_t	typeref:struct:hash_it_t::element_t
+first_bucket	linux/modules/hash.h	/^	struct element_t **first_bucket;$/;"	m	struct:hash_it_t	typeref:struct:hash_it_t::element_t
+flags	batman.h	/^	uint8_t  flags;    \/* 0x80: UNIDIRECTIONAL link, 0x40: DIRECTLINK flag, ... *\/$/;"	m	struct:bat_packet
+flush_routes_rules	linux/route.c	/^int flush_routes_rules(int8_t is_rule)$/;"	f
+fops	linux/modules/gateway.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+fops	linux/modules/gateway24.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+fops	linux/modules/mod_batman.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+forw_list	batman.c	/^struct list_head_first forw_list;$/;"	v	typeref:struct:list_head_first
+forw_node	batman.h	/^struct forw_node                 \/* structure for forw_list maintaining packets to be send\/forwarded *\/$/;"	s
+found_ifs	batman.c	/^uint8_t found_ifs = 0;$/;"	v
+free_client_data	linux/modules/gateway.h	/^struct free_client_data {$/;"	s
+free_client_data	linux/modules/gateway24.h	/^struct free_client_data {$/;"	s
+free_client_list	linux/modules/gateway.c	/^static struct list_head free_client_list;$/;"	v	typeref:struct:list_head	file:
+free_client_list	linux/modules/gateway24.c	/^static struct list_head free_client_list;$/;"	v	typeref:struct:list_head	file:
+free_ip	batman.h	/^struct free_ip$/;"	s
+gate_device	linux/modules/gateway.c	/^static struct net_device *gate_device = NULL;$/;"	v	typeref:struct:net_device	file:
+gate_device	linux/modules/gateway24.c	/^static struct net_device gate_device = {$/;"	v	typeref:struct:net_device	file:
+gate_device_run	linux/modules/gateway24.c	/^atomic_t gate_device_run;$/;"	v
+gate_priv	linux/modules/gateway.h	/^struct gate_priv {$/;"	s
+gate_priv	linux/modules/gateway24.h	/^struct gate_priv {$/;"	s
+gateway	bsd/route.c	/^	struct sockaddr_in gateway;$/;"	m	struct:rt_msg	typeref:struct:rt_msg::sockaddr_in	file:
+gateway_class	batman.c	/^uint8_t gateway_class = 0;$/;"	v
+generate_vis_packet	batman.c	/^static void generate_vis_packet(void)$/;"	f	file:
+getHeaderPad	allocate.c	/^static size_t getHeaderPad() {$/;"	f	file:
+getTrailerPad	allocate.c	/^static size_t getTrailerPad(size_t length) {$/;"	f	file:
+get_bit_status	bitarray.c	/^uint8_t get_bit_status( TYPE_OF_WORD *seq_bits, uint16_t last_seqno, uint16_t curr_seqno ) {$/;"	f
+get_dev_addr	bsd/route.c	/^static uint32_t get_dev_addr(char *dev)$/;"	f	file:
+get_forwarding	bsd/kernel.c	/^int32_t get_forwarding(void)$/;"	f
+get_forwarding	linux/kernel.c	/^int32_t get_forwarding(void)$/;"	f
+get_gw_class	batman.c	/^unsigned char get_gw_class(int down, int up)$/;"	f
+get_gw_speeds	batman.c	/^void get_gw_speeds(unsigned char gw_class, int *down, int *up)$/;"	f
+get_integer_file	linux/kernel.c	/^static int get_integer_file(const char* filename)$/;"	f	file:
+get_ip_addr	linux/modules/gateway.c	/^static struct gw_client *get_ip_addr(struct sockaddr_in *client_addr)$/;"	f	file:
+get_ip_addr	linux/modules/gateway24.c	/^static struct gw_client *get_ip_addr(struct sockaddr_in *client_addr)$/;"	f	file:
+get_ip_addr	posix/tunnel.c	/^static struct gw_client *get_ip_addr(struct sockaddr_in *client_addr, struct hashtable_t **wip_hash, struct hashtable_t **vip_hash, struct list_head_first *free_ip_list, uint8_t next_free_ip[]) {$/;"	f	file:
+get_orig_node	originator.c	/^struct orig_node *get_orig_node( uint32_t addr ) {$/;"	f
+get_rp_filter	bsd/kernel.c	/^int32_t get_rp_filter( char *BATMANUNUSED(dev) )$/;"	f
+get_rp_filter	linux/kernel.c	/^int32_t get_rp_filter(char *dev)$/;"	f
+get_send_redirects	bsd/kernel.c	/^int32_t get_send_redirects(char *BATMANUNUSED(dev))$/;"	f
+get_send_redirects	linux/kernel.c	/^int32_t get_send_redirects(char *dev)$/;"	f
+get_time_msec	posix/posix.c	/^uint32_t get_time_msec(void)$/;"	f
+get_time_msec64	posix/posix.c	/^uint64_t get_time_msec64(void)$/;"	f
+get_tun_ip	posix/tunnel.c	/^static int8_t get_tun_ip(struct sockaddr_in *gw_addr, int32_t udp_sock, uint32_t *tun_addr)$/;"	f	file:
+get_tunneled_protocol	posix/tunnel.c	/^static uint8_t get_tunneled_protocol(const unsigned char *buff)$/;"	f	file:
+get_tunneled_sender_ip	posix/tunnel.c	/^static uint32_t get_tunneled_sender_ip(const unsigned char *buff)$/;"	f	file:
+get_tunneled_udpdest	posix/tunnel.c	/^static uint16_t get_tunneled_udpdest(const unsigned char *buff)$/;"	f	file:
+global_win_size	batman.c	/^uint8_t global_win_size = TQ_GLOBAL_WINDOW_SIZE;$/;"	v
+gw_class	vis-types.h	/^	uint8_t gw_class;$/;"	m	struct:vis_packet
+gw_client	batman.h	/^struct gw_client$/;"	s
+gw_client	linux/modules/gateway.h	/^	struct gw_client *gw_client;$/;"	m	struct:free_client_data	typeref:struct:free_client_data::gw_client
+gw_client	linux/modules/gateway.h	/^struct gw_client {$/;"	s
+gw_client	linux/modules/gateway24.h	/^	struct gw_client *gw_client;$/;"	m	struct:free_client_data	typeref:struct:free_client_data::gw_client
+gw_client	linux/modules/gateway24.h	/^struct gw_client {$/;"	s
+gw_failure	batman.h	/^	uint16_t gw_failure;$/;"	m	struct:gw_node
+gw_list	batman.c	/^struct list_head_first gw_list;$/;"	v	typeref:struct:list_head_first
+gw_listen	posix/tunnel.c	/^void *gw_listen(void *BATMANUNUSED(arg)) {$/;"	f
+gw_node	batman.h	/^	struct gw_node *gw_node;$/;"	m	struct:curr_gw_data	typeref:struct:curr_gw_data::gw_node
+gw_node	batman.h	/^struct gw_node$/;"	s
+gw_port	batman.h	/^	uint16_t gw_port;$/;"	m	struct:gw_node
+gwflags	batman.h	/^	uint8_t  gwflags;      \/* flags related to gateway functions: gateway class *\/$/;"	m	struct:orig_node
+gwflags	batman.h	/^	uint8_t  gwflags;  \/* flags related to gateway functions: gateway class *\/$/;"	m	struct:bat_packet
+gwport	batman.h	/^	uint16_t gwport;$/;"	m	struct:bat_packet
+hash_add	hash.c	/^int hash_add(struct hashtable_t *hash, void *data) {$/;"	f
+hash_add	linux/modules/hash.c	/^int hash_add(struct hashtable_t *hash, void *data)$/;"	f
+hash_delete	hash.c	/^void hash_delete(struct hashtable_t *hash, hashdata_free_cb free_cb) {$/;"	f
+hash_delete	linux/modules/hash.c	/^void hash_delete(struct hashtable_t *hash, hashdata_free_cb free_cb)$/;"	f
+hash_destroy	hash.c	/^void hash_destroy(struct hashtable_t *hash) {$/;"	f
+hash_destroy	linux/modules/hash.c	/^void hash_destroy(struct hashtable_t *hash)$/;"	f
+hash_find	hash.c	/^void *hash_find(struct hashtable_t *hash, void *keydata) {$/;"	f
+hash_find	linux/modules/hash.c	/^void *hash_find(struct hashtable_t *hash, void *keydata)$/;"	f
+hash_init	hash.c	/^void hash_init(struct hashtable_t *hash) {$/;"	f
+hash_init	linux/modules/hash.c	/^void hash_init(struct hashtable_t *hash)$/;"	f
+hash_it_t	hash.h	/^struct hash_it_t {$/;"	s
+hash_it_t	linux/modules/hash.h	/^struct hash_it_t {$/;"	s
+hash_iterate	hash.c	/^struct hash_it_t *hash_iterate(struct hashtable_t *hash, struct hash_it_t *iter_in) {$/;"	f
+hash_iterate	linux/modules/hash.c	/^struct hash_it_t *hash_iterate(struct hashtable_t *hash, struct hash_it_t *iter_in)$/;"	f
+hash_lock	linux/modules/gateway.c	/^DEFINE_SPINLOCK(hash_lock);$/;"	v
+hash_lock	linux/modules/gateway24.c	/^spinlock_t hash_lock = SPIN_LOCK_UNLOCKED;$/;"	v
+hash_new	hash.c	/^struct hashtable_t *hash_new(int size, hashdata_compare_cb compare, hashdata_choose_cb choose) {$/;"	f
+hash_new	linux/modules/hash.c	/^struct hashtable_t *hash_new(int size, hashdata_compare_cb compare, hashdata_choose_cb choose)$/;"	f
+hash_remove	hash.c	/^void *hash_remove(struct hashtable_t *hash, void *data) {$/;"	f
+hash_remove	linux/modules/hash.c	/^void *hash_remove(struct hashtable_t *hash, void *data)$/;"	f
+hash_remove_bucket	hash.c	/^void *hash_remove_bucket(struct hashtable_t *hash, struct hash_it_t *hash_it_t) {$/;"	f
+hash_remove_bucket	linux/modules/hash.c	/^void *hash_remove_bucket(struct hashtable_t *hash, struct hash_it_t *hash_it_t)$/;"	f
+hash_resize	hash.c	/^struct hashtable_t *hash_resize(struct hashtable_t *hash, int size) {$/;"	f
+hash_resize	linux/modules/hash.c	/^struct hashtable_t *hash_resize(struct hashtable_t *hash, int size)$/;"	f
+hashdata_choose_cb	hash.h	/^typedef int (*hashdata_choose_cb)(void *, int);$/;"	t
+hashdata_choose_cb	linux/modules/hash.h	/^typedef int (*hashdata_choose_cb)(void *, int);$/;"	t
+hashdata_compare_cb	hash.h	/^typedef int (*hashdata_compare_cb)(void *, void *);$/;"	t
+hashdata_compare_cb	linux/modules/hash.h	/^typedef int (*hashdata_compare_cb)(void *, void *);$/;"	t
+hashdata_free_cb	hash.h	/^typedef void (*hashdata_free_cb)(void *);$/;"	t
+hashdata_free_cb	linux/modules/hash.h	/^typedef void (*hashdata_free_cb)(void *);$/;"	t
+hashtable_t	hash.h	/^struct hashtable_t {$/;"	s
+hashtable_t	linux/modules/hash.h	/^struct hashtable_t {$/;"	s
+hdr	bsd/route.c	/^	struct rt_msghdr hdr;$/;"	m	struct:rt_msg	typeref:struct:rt_msg::rt_msghdr	file:
+hna_buff	batman.h	/^	unsigned char *hna_buff;$/;"	m	struct:orig_node
+hna_buff_delete	hna.c	/^static int hna_buff_delete(struct hna_element *buf, int *buf_len, struct hna_element *e)$/;"	f	file:
+hna_buff_len	batman.h	/^	int16_t  hna_buff_len;$/;"	m	struct:orig_node
+hna_buff_local	hna.c	/^unsigned char *hna_buff_local = NULL;$/;"	v
+hna_chg_list	hna.c	/^struct list_head_first hna_chg_list;$/;"	v	typeref:struct:list_head_first
+hna_chg_list_mutex	hna.c	/^static pthread_mutex_t hna_chg_list_mutex;$/;"	v	file:
+hna_element	hna.h	/^struct hna_element$/;"	s
+hna_free	hna.c	/^void hna_free(void)$/;"	f
+hna_global_add	hna.c	/^void hna_global_add(struct orig_node *orig_node, unsigned char *new_hna, int16_t new_hna_len)$/;"	f
+hna_global_check_tq	hna.c	/^void hna_global_check_tq(struct orig_node *orig_node)$/;"	f
+hna_global_del	hna.c	/^void hna_global_del(struct orig_node *orig_node)$/;"	f
+hna_global_entry	hna.h	/^struct hna_global_entry$/;"	s
+hna_global_hash	hna.c	/^static struct hashtable_t *hna_global_hash = NULL;$/;"	v	typeref:struct:hashtable_t	file:
+hna_global_update	hna.c	/^void hna_global_update(struct orig_node *orig_node, unsigned char *new_hna,$/;"	f
+hna_init	hna.c	/^void hna_init(void)$/;"	f
+hna_len	batman.h	/^	uint8_t hna_len;$/;"	m	struct:bat_packet
+hna_list	hna.c	/^struct list_head_first hna_list;$/;"	v	typeref:struct:list_head_first
+hna_local_buffer_fill	hna.c	/^static void hna_local_buffer_fill(void)$/;"	f	file:
+hna_local_entry	hna.h	/^struct hna_local_entry$/;"	s
+hna_local_task_add_ip	hna.c	/^void hna_local_task_add_ip(uint32_t ip_addr, uint16_t netmask, uint8_t route_action)$/;"	f
+hna_local_task_add_str	hna.c	/^void hna_local_task_add_str(char *hna_string, uint8_t route_action, uint8_t runtime)$/;"	f
+hna_local_task_exec	hna.c	/^void hna_local_task_exec(void)$/;"	f
+hna_local_update_nat	linux/tun.c	/^void hna_local_update_nat(uint32_t hna_ip, uint8_t netmask, int8_t route_action) {$/;"	f
+hna_local_update_routes	hna.c	/^void hna_local_update_routes(struct hna_local_entry *hna_local_entry, int8_t route_action)$/;"	f
+hna_local_update_vis_packet	hna.c	/^unsigned char *hna_local_update_vis_packet(unsigned char *vis_packet, uint16_t *vis_packet_size)$/;"	f
+hna_orig_ptr	hna.h	/^struct hna_orig_ptr$/;"	s
+hna_task	hna.h	/^struct hna_task$/;"	s
+hop_penalty	batman.c	/^uint8_t hop_penalty = TQ_HOP_PENALTY;$/;"	v
+if_active	batman.h	/^	uint8_t if_active;$/;"	m	struct:batman_if
+if_incoming	batman.h	/^	struct batman_if *if_incoming;$/;"	m	struct:forw_node	typeref:struct:forw_node::batman_if
+if_incoming	batman.h	/^	struct batman_if *if_incoming;$/;"	m	struct:neigh_node	typeref:struct:neigh_node::batman_if
+if_index	batman.h	/^	int32_t if_index;$/;"	m	struct:batman_if
+if_list	batman.c	/^struct list_head_first if_list;$/;"	v	typeref:struct:list_head_first
+if_num	batman.h	/^	uint8_t if_num;$/;"	m	struct:batman_if
+if_rp_filter_old	batman.h	/^	int8_t if_rp_filter_old;$/;"	m	struct:batman_if
+if_send_redirects_old	batman.h	/^	int8_t if_send_redirects_old;$/;"	m	struct:batman_if
+ifindex	batman.h	/^	uint32_t ifindex;$/;"	m	struct:batgat_ioc_args
+ifindex	linux/modules/gateway.h	/^	uint32_t ifindex;$/;"	m	struct:batgat_ioc_args
+ifindex	linux/modules/gateway24.h	/^	uint32_t ifindex;$/;"	m	struct:batgat_ioc_args
+in_use	linux/modules/mod_batman.c	/^	int in_use;$/;"	m	struct:minor	file:
+index	hash.h	/^	int index;$/;"	m	struct:hash_it_t
+index	linux/modules/hash.h	/^	int index;$/;"	m	struct:hash_it_t
+init_bh_ports	posix/tunnel.c	/^void init_bh_ports(void)$/;"	f
+init_interface	posix/init.c	/^void init_interface(struct batman_if *batman_if)$/;"	f
+init_interface_gw	posix/init.c	/^void init_interface_gw (void) {$/;"	f
+init_module	linux/modules/gateway.c	/^int init_module(void)$/;"	f
+init_module	linux/modules/gateway24.c	/^int init_module(void)$/;"	f
+init_module	linux/modules/mod_batman.c	/^int init_module( void ) {$/;"	f
+interface_listen_sockets	posix/init.c	/^void interface_listen_sockets(void)$/;"	f
+internal_output	posix/unix_socket.c	/^void internal_output(uint32_t sock)$/;"	f
+iov	linux/modules/mod_batman.c	/^	struct iovec iov;$/;"	m	struct:minor	typeref:struct:minor::iovec	file:
+ip	linux/modules/mod_batman.c	/^	struct iphdr ip;$/;"	m	struct:orig_packet	typeref:struct:orig_packet::iphdr	file:
+ip	vis-types.h	/^	uint32_t ip;$/;"	m	struct:vis_data
+ip_hdr	linux/modules/compat26.h	/^static inline struct iphdr *ip_hdr(const struct sk_buff *skb)$/;"	f
+ip_hdr	linux/modules/gateway24.h	63;"	d
+isBidirectionalNeigh	batman.c	/^static int isBidirectionalNeigh(struct orig_node *orig_node, struct orig_node *orig_neigh_node, struct bat_packet *in, uint32_t recv_time, struct batman_if *if_incoming)$/;"	f	file:
+is_aborted	posix/posix.c	/^int8_t is_aborted(void) {$/;"	f
+is_batman_if	batman.c	/^int is_batman_if(char *dev, struct batman_if **batman_if)$/;"	f
+is_interface_up	posix/init.c	/^static int is_interface_up(char *dev)$/;"	f	file:
+is_wifi_interface	linux/kernel.c	/^int is_wifi_interface(char *dev, int fd)$/;"	f
+kernel_bind	linux/modules/compat26.h	/^static inline int kernel_bind(struct socket *sock, struct sockaddr *addr, int addrlen)$/;"	f
+kernel_recvmsg	linux/modules/gateway24.c	/^static int kernel_recvmsg(struct socket *sock, struct msghdr *msg, struct iovec *vec, size_t num, size_t size, int flags)$/;"	f	file:
+kernel_sendmsg	linux/modules/gateway24.c	/^static int kernel_sendmsg(struct socket *sock, struct msghdr *msg, struct iovec *vec, size_t num, size_t size)$/;"	f	file:
+kiocb	linux/modules/mod_batman.c	/^	struct kiocb kiocb;$/;"	m	struct:minor	typeref:struct:minor::kiocb	file:
+kthread_task	linux/modules/gateway.c	/^static struct task_struct *kthread_task = NULL;$/;"	v	typeref:struct:task_struct	file:
+last_clock_tick	posix/posix.c	/^static clock_t last_clock_tick;$/;"	v	file:
+last_failure	batman.h	/^	uint32_t last_failure;$/;"	m	struct:gw_node
+last_keep_alive	batman.h	/^	uint32_t last_keep_alive;$/;"	m	struct:gw_client
+last_keep_alive	linux/modules/gateway.h	/^	uint32_t last_keep_alive;$/;"	m	struct:gw_client
+last_keep_alive	linux/modules/gateway24.h	/^	uint32_t last_keep_alive;$/;"	m	struct:gw_client
+last_real_seqno	batman.h	/^	uint16_t last_real_seqno;   \/* last and best known squence number *\/$/;"	m	struct:orig_node
+last_ttl	batman.h	/^	uint8_t last_ttl;         \/* ttl of last received packet *\/$/;"	m	struct:orig_node
+last_ttl	batman.h	/^	uint8_t last_ttl;$/;"	m	struct:neigh_node
+last_valid	batman.h	/^	uint32_t last_valid;            \/* when last packet via this neighbour was received *\/$/;"	m	struct:neigh_node
+last_valid	batman.h	/^	uint32_t last_valid;        \/* when last packet from this node was received *\/$/;"	m	struct:orig_node
+length	allocate.c	/^	uint32_t length;$/;"	m	struct:chunkHeader	file:
+length	allocate.c	/^	uint32_t length;$/;"	m	struct:memoryUsage	file:
+list	batman.h	/^	struct list_head list;$/;"	m	struct:batman_if	typeref:struct:batman_if::list_head
+list	batman.h	/^	struct list_head list;$/;"	m	struct:debug_level_info	typeref:struct:debug_level_info::list_head
+list	batman.h	/^	struct list_head list;$/;"	m	struct:forw_node	typeref:struct:forw_node::list_head
+list	batman.h	/^	struct list_head list;$/;"	m	struct:free_ip	typeref:struct:free_ip::list_head
+list	batman.h	/^	struct list_head list;$/;"	m	struct:gw_node	typeref:struct:gw_node::list_head
+list	batman.h	/^	struct list_head list;$/;"	m	struct:neigh_node	typeref:struct:neigh_node::list_head
+list	batman.h	/^	struct list_head list;$/;"	m	struct:unix_client	typeref:struct:unix_client::list_head
+list	hna.h	/^	struct list_head list;$/;"	m	struct:hna_local_entry	typeref:struct:hna_local_entry::list_head
+list	hna.h	/^	struct list_head list;$/;"	m	struct:hna_orig_ptr	typeref:struct:hna_orig_ptr::list_head
+list	hna.h	/^	struct list_head list;$/;"	m	struct:hna_task	typeref:struct:hna_task::list_head
+list	linux/modules/gateway.h	/^	struct list_head list;$/;"	m	struct:free_client_data	typeref:struct:free_client_data::list_head
+list	linux/modules/gateway24.h	/^	struct list_head list;$/;"	m	struct:free_client_data	typeref:struct:free_client_data::list_head
+list_add	list-batman.c	/^void list_add( struct list_head *new, struct list_head_first *head ) {$/;"	f
+list_add_before	list-batman.c	/^void list_add_before( struct list_head *prev_node, struct list_head *next_node, struct list_head *new_node ) {$/;"	f
+list_add_tail	list-batman.c	/^void list_add_tail( struct list_head *new, struct list_head_first *head ) {$/;"	f
+list_del	list-batman.c	/^void list_del( struct list_head *prev_entry, struct list_head *entry, struct list_head_first *head ) {$/;"	f
+list_empty	list-batman.c	/^int list_empty( struct list_head_first *head ) {$/;"	f
+list_entry	list-batman.h	76;"	d
+list_for_each	list-batman.h	84;"	d
+list_for_each_entry_safe	linux/modules/gateway24.h	67;"	d
+list_for_each_safe	list-batman.h	94;"	d
+list_head	list-batman.h	/^struct list_head {$/;"	s
+list_head_first	list-batman.h	/^struct list_head_first {$/;"	s
+listen_thread_id	batman.h	/^	pthread_t listen_thread_id;$/;"	m	struct:batman_if
+listen_thread_id	batman.h	/^	pthread_t listen_thread_id;$/;"	m	struct:unix_if
+local_win_size	batman.c	/^uint8_t local_win_size = TQ_LOCAL_WINDOW_SIZE;$/;"	v
+log_facility_active	batman.c	/^uint8_t log_facility_active = 0;$/;"	v
+magicNumber	allocate.c	/^	uint32_t magicNumber;$/;"	m	struct:chunkHeader	file:
+magicNumber	allocate.c	/^	uint32_t magicNumber;$/;"	m	struct:chunkTrailer	file:
+main	posix/posix.c	/^int main(int argc, char *argv[])$/;"	f
+memoryList	allocate.c	/^struct memoryUsage *memoryList = NULL;$/;"	v	typeref:struct:memoryUsage
+memoryUsage	allocate.c	/^struct memoryUsage$/;"	s	file:
+memory_mutex	allocate.c	/^static pthread_mutex_t memory_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+minimum_recv	batman.c	/^uint8_t minimum_recv = TQ_LOCAL_BIDRECT_RECV_MINIMUM;$/;"	v
+minimum_send	batman.c	/^uint8_t minimum_send = TQ_LOCAL_BIDRECT_SEND_MINIMUM;$/;"	v
+minor	linux/modules/mod_batman.c	/^struct minor {$/;"	s	file:
+minor_array	linux/modules/mod_batman.c	/^struct minor *minor_array[256];    \/* minor numbers for device users *\/$/;"	v	typeref:struct:minor
+minor_class	linux/modules/mod_batman.c	/^	struct class *minor_class;$/;"	m	struct:minor	typeref:struct:minor::class	file:
+minor_num	linux/modules/mod_batman.c	/^	int minor_num;$/;"	m	struct:minor	file:
+msg	linux/modules/mod_batman.c	/^	struct msghdr msg;$/;"	m	struct:minor	typeref:struct:minor::msghdr	file:
+mutex	batman.h	/^	pthread_mutex_t **mutex;$/;"	m	struct:debug_clients
+my_daemon	posix/init.c	/^static int my_daemon(void) {$/;"	f	file:
+n_bits	bsd/route.c	/^static inline int32_t n_bits(uint8_t n)$/;"	f	file:
+name	profile.h	/^	char *name;$/;"	m	struct:prof_container
+nat_tool_avail	batman.c	/^int nat_tool_avail = -1;$/;"	v
+nat_warn	batman.h	/^	uint8_t nat_warn;$/;"	m	struct:gw_client
+neigh_list	batman.h	/^	struct list_head_first neigh_list;$/;"	m	struct:orig_node	typeref:struct:orig_node::list_head_first
+neigh_node	batman.h	/^struct neigh_node$/;"	s
+netaddr	batman.h	/^	uint32_t netaddr;$/;"	m	struct:batman_if
+netmask	batman.h	/^	uint8_t netmask;$/;"	m	struct:batman_if
+netmask	bsd/route.c	/^	struct sockaddr_in netmask;$/;"	m	struct:rt_msg	typeref:struct:rt_msg::sockaddr_in	file:
+netmask	hna.h	/^	uint8_t  netmask;$/;"	m	struct:hna_element
+netmask	hna.h	/^	uint8_t netmask;$/;"	m	struct:hna_global_entry
+netmask	hna.h	/^	uint8_t netmask;$/;"	m	struct:hna_local_entry
+netmask	hna.h	/^	uint8_t netmask;$/;"	m	struct:hna_task
+next	allocate.c	/^	struct chunkHeader *next;$/;"	m	struct:chunkHeader	typeref:struct:chunkHeader::chunkHeader	file:
+next	allocate.c	/^	struct memoryUsage *next;$/;"	m	struct:memoryUsage	typeref:struct:memoryUsage::memoryUsage	file:
+next	hash.h	/^	struct element_t *next;			\/* overflow bucket pointer *\/$/;"	m	struct:element_t	typeref:struct:element_t::element_t
+next	linux/modules/hash.h	/^	struct element_t *next;			\/* overflow bucket pointer *\/$/;"	m	struct:element_t	typeref:struct:element_t::element_t
+next	list-batman.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head_first	typeref:struct:list_head_first::list_head
+next	list-batman.h	/^	struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+num_hna_local	hna.c	/^uint8_t num_hna_local = 0;$/;"	v
+num_packets	batman.h	/^	uint8_t num_packets;$/;"	m	struct:forw_node
+num_words	batman.c	/^uint8_t num_words = (TQ_LOCAL_WINDOW_SIZE \/ WORD_BIT_SIZE);$/;"	v
+open_tun_any	bsd/tun.c	/^static int open_tun_any(char *dev_name, size_t dev_name_size)$/;"	f	file:
+orig	batman.h	/^	uint32_t orig;$/;"	m	struct:bat_packet
+orig	batman.h	/^	uint32_t orig;$/;"	m	struct:orig_node
+orig	batman.h	/^	unsigned int orig;$/;"	m	struct:curr_gw_data
+orig_hash	batman.c	/^struct hashtable_t *orig_hash;$/;"	v	typeref:struct:hashtable_t
+orig_node	batman.h	/^	struct orig_node *orig_node;$/;"	m	struct:gw_node	typeref:struct:gw_node::orig_node
+orig_node	batman.h	/^	struct orig_node *orig_node;$/;"	m	struct:neigh_node	typeref:struct:neigh_node::orig_node
+orig_node	batman.h	/^struct orig_node                 \/* structure for orig_list maintaining nodes of mesh *\/$/;"	s
+orig_node	hna.h	/^	struct orig_node *orig_node;$/;"	m	struct:hna_orig_ptr	typeref:struct:hna_orig_ptr::orig_node
+orig_packet	linux/modules/mod_batman.c	/^struct orig_packet {$/;"	s	file:
+originator_interval	batman.c	/^int16_t originator_interval = 1000;   \/* originator message interval in miliseconds *\/$/;"	v
+out	batman.h	/^	struct bat_packet out;$/;"	m	struct:batman_if	typeref:struct:batman_if::bat_packet
+own	batman.h	/^	uint8_t  own;$/;"	m	struct:forw_node
+own_hna_rules	bsd/tun.c	/^void own_hna_rules(uint32_t hna_ip, uint8_t netmask, int8_t route_action) {$/;"	f
+pack_buff	batman.h	/^	unsigned char *pack_buff;$/;"	m	struct:forw_node
+pack_buff_len	batman.h	/^	uint16_t  pack_buff_len;$/;"	m	struct:forw_node
+packet_recv_thread	linux/modules/gateway.c	/^static int packet_recv_thread(void *data)$/;"	f	file:
+packet_recv_thread	linux/modules/gateway24.c	/^static int packet_recv_thread(void *data)$/;"	f	file:
+policy_routing_pipe	batman.c	/^int policy_routing_pipe = 0;$/;"	v
+policy_routing_script	batman.c	/^char *policy_routing_script = NULL;$/;"	v
+policy_routing_script_pid	batman.c	/^pid_t policy_routing_script_pid;$/;"	v
+pref_gateway	batman.c	/^uint32_t pref_gateway = 0;$/;"	v
+prev	list-batman.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head_first	typeref:struct:list_head_first::
+prev_bucket	hash.h	/^	struct element_t *prev_bucket;$/;"	m	struct:hash_it_t	typeref:struct:hash_it_t::element_t
+prev_bucket	linux/modules/hash.h	/^	struct element_t *prev_bucket;$/;"	m	struct:hash_it_t	typeref:struct:hash_it_t::element_t
+prev_sender	batman.h	/^	uint32_t prev_sender;$/;"	m	struct:bat_packet
+print_animation	posix/posix.c	/^void print_animation( void ) {$/;"	f
+probe_nat_tool	bsd/tun.c	/^int probe_nat_tool(void) {$/;"	f
+probe_nat_tool	linux/tun.c	/^int probe_nat_tool(void) {$/;"	f
+probe_tun	linux/tun.c	/^int8_t probe_tun(uint8_t print_to_stderr) {$/;"	f
+proc_clients_read	linux/modules/gateway.c	/^static int proc_clients_read(char *buf, char **start, off_t offset, int size, int *eof, void *data)$/;"	f	file:
+proc_dir	linux/modules/gateway.c	/^static struct proc_dir_entry *proc_dir, *clients_file;$/;"	v	typeref:struct:proc_dir_entry	file:
+prof_container	profile.c	/^static struct prof_container prof_container[PROF_COUNT];$/;"	v	typeref:struct:prof_container	file:
+prof_container	profile.h	/^struct prof_container {$/;"	s
+prof_init	profile.c	/^void prof_init( int32_t index, char *name ) {$/;"	f
+prof_init	profile.c	/^void prof_init(int32_t index, char *name) {$/;"	f
+prof_print	profile.c	/^void prof_print(void) {$/;"	f
+prof_start	profile.c	/^void prof_start( int32_t index ) {$/;"	f
+prof_start	profile.c	/^void prof_start(int32_t index) {$/;"	f
+prof_stop	profile.c	/^void prof_stop( int32_t index ) {$/;"	f
+prof_stop	profile.c	/^void prof_stop(int32_t index) {$/;"	f
+prog_name	batman.c	/^char *prog_name;$/;"	v
+purge_orig	originator.c	/^void purge_orig(uint32_t curr_time)$/;"	f
+purge_timeout	batman.c	/^uint32_t purge_timeout = PURGE_TIMEOUT;$/;"	v
+rand_num	posix/posix.c	/^int32_t rand_num( int32_t limit ) {$/;"	f
+raw_sock	linux/modules/mod_batman.c	/^	struct socket *raw_sock;$/;"	m	struct:minor	typeref:struct:minor::socket	file:
+real_bits	batman.h	/^	TYPE_OF_WORD *real_bits;$/;"	m	struct:neigh_node
+real_packet_count	batman.h	/^	uint8_t real_packet_count;$/;"	m	struct:neigh_node
+receive_max_sock	batman.c	/^int32_t receive_max_sock = 0;$/;"	v
+receive_packet	posix/posix.c	/^int8_t receive_packet(unsigned char *packet_buff, int32_t packet_buff_len, int16_t *packet_len, uint32_t *neigh, uint32_t timeout, struct batman_if **if_incoming)$/;"	f
+receive_wait_set	batman.c	/^fd_set receive_wait_set;$/;"	v
+removeMemory	allocate.c	/^static void removeMemory( int32_t tag, int32_t freetag ) {$/;"	f	file:
+restore_and_exit	posix/posix.c	/^void restore_and_exit( uint8_t is_sigsegv ) {$/;"	f
+restore_defaults	posix/posix.c	/^void restore_defaults(void) {$/;"	f
+ring_buffer_avg	ring_buffer.c	/^uint8_t ring_buffer_avg(uint8_t tq_recv[])$/;"	f
+ring_buffer_set	ring_buffer.c	/^void ring_buffer_set(uint8_t tq_recv[], uint8_t *tq_index, uint8_t value)$/;"	f
+route_action	hna.h	/^	uint8_t route_action;$/;"	m	struct:hna_task
+route_type_to_string	linux/route.c	/^static const char *route_type_to_string[] = {$/;"	v	file:
+route_type_to_string_script	linux/route.c	/^static const char *route_type_to_string_script[] = {$/;"	v	file:
+router	batman.h	/^	struct neigh_node *router;$/;"	m	struct:orig_node	typeref:struct:orig_node::neigh_node
+routing_class	batman.c	/^uint8_t routing_class = 0;$/;"	v
+rt_message	bsd/route.c	/^static int rt_message(struct rt_msg *msg)$/;"	f	file:
+rt_msg	bsd/route.c	/^struct rt_msg$/;"	s	file:
+rule_type_to_string	linux/route.c	/^static const char *rule_type_to_string[] = {$/;"	v	file:
+rule_type_to_string_script	linux/route.c	/^static const char *rule_type_to_string_script[] = {$/;"	v	file:
+run_cmd	linux/tun.c	/^int run_cmd(char *cmd) {$/;"	f
+schedule_forward_packet	schedule.c	/^void schedule_forward_packet(struct orig_node *orig_node, struct bat_packet *in, uint32_t neigh, uint8_t directlink, int16_t hna_buff_len, struct batman_if *if_incoming, uint32_t curr_time)$/;"	f
+schedule_own_packet	schedule.c	/^void schedule_own_packet(struct batman_if *batman_if)$/;"	f
+send_outstanding_packets	schedule.c	/^void send_outstanding_packets(uint32_t curr_time)$/;"	f
+send_time	batman.h	/^	uint32_t send_time;$/;"	m	struct:forw_node
+send_udp_packet	posix/posix.c	/^int8_t send_udp_packet(unsigned char *packet_buff, int32_t packet_buff_len, struct sockaddr_in *broad, int32_t send_sock, struct batman_if *batman_if)$/;"	f
+send_vis_packet	batman.c	/^static void send_vis_packet(void)$/;"	f	file:
+sender_ip	vis-types.h	/^	uint32_t sender_ip;$/;"	m	struct:vis_packet
+seqno	batman.h	/^	uint16_t seqno;$/;"	m	struct:bat_packet
+set_forwarding	bsd/kernel.c	/^void set_forwarding(int32_t state)$/;"	f
+set_forwarding	linux/kernel.c	/^void set_forwarding(int32_t state)$/;"	f
+set_integer_file	linux/kernel.c	/^static void set_integer_file(const char* filename, int32_t integer)$/;"	f	file:
+set_rp_filter	linux/kernel.c	/^void set_rp_filter(int32_t state, char* dev)$/;"	f
+set_send_redirects	bsd/kernel.c	/^void set_send_redirects(int32_t state, char* BATMANUNUSED(dev))$/;"	f
+set_send_redirects	linux/kernel.c	/^void set_send_redirects(int32_t state, char* dev)$/;"	f
+set_tun_addr	linux/tun.c	/^int8_t set_tun_addr( int32_t fd, uint32_t tun_addr, char *tun_dev ) {$/;"	f
+setup_procfs	linux/modules/gateway.c	/^static int setup_procfs(void)$/;"	f	file:
+siocb	linux/modules/mod_batman.c	/^	struct sock_iocb siocb;$/;"	m	struct:minor	typeref:struct:minor::sock_iocb	file:
+size	hash.h	/^	int size;									\/* size of hashtable *\/$/;"	m	struct:hashtable_t
+size	linux/modules/hash.h	/^	int size;									\/* size of hashtable *\/$/;"	m	struct:hashtable_t
+skb_network_header	linux/modules/compat26.h	28;"	d
+sock	batman.h	/^	int32_t sock;$/;"	m	struct:unix_client
+sock	batman.h	/^	int32_t sock;$/;"	m	struct:vis_if
+start_time	profile.h	/^	clock_t start_time;$/;"	m	struct:prof_container
+stop	posix/init.c	/^int8_t stop;$/;"	v
+sym_print	posix/posix.c	/^static void sym_print( char x, char y, char *z ) {$/;"	f	file:
+system_tick	posix/posix.c	/^static float system_tick;$/;"	v	file:
+table	hash.h	/^	struct element_t **table;					\/* the hashtable itself, with the buckets *\/$/;"	m	struct:hashtable_t	typeref:struct:hashtable_t::element_t
+table	linux/modules/hash.h	/^	struct element_t **table;					\/* the hashtable itself, with the buckets *\/$/;"	m	struct:hashtable_t	typeref:struct:hashtable_t::element_t
+tag	allocate.c	/^	int32_t tag;$/;"	m	struct:chunkHeader	file:
+tag	allocate.c	/^	int32_t tag;$/;"	m	struct:memoryUsage	file:
+thread_complete	linux/modules/gateway24.c	/^static struct completion thread_complete;$/;"	v	typeref:struct:completion	file:
+thread_pid	linux/modules/gateway24.c	/^static int thread_pid;$/;"	v	file:
+thread_wait	linux/modules/gateway.c	/^DECLARE_WAIT_QUEUE_HEAD(thread_wait);$/;"	v
+thread_wait	linux/modules/gateway24.c	/^DECLARE_WAIT_QUEUE_HEAD(thread_wait);$/;"	v
+times_wrapper	posix/posix.c	/^static clock_t times_wrapper(void)$/;"	f	file:
+total_time	profile.h	/^	clock_t total_time;$/;"	m	struct:prof_container
+tq	batman.h	/^	uint8_t tq;$/;"	m	struct:bat_packet
+tq_asym_penalty	batman.h	/^	int tq_asym_penalty;$/;"	m	struct:orig_node
+tq_avg	batman.h	/^	uint8_t tq_avg;$/;"	m	struct:neigh_node
+tq_index	batman.h	/^	uint8_t tq_index;$/;"	m	struct:neigh_node
+tq_max	vis-types.h	/^	uint8_t tq_max;$/;"	m	struct:vis_packet
+tq_own	batman.h	/^	uint8_t tq_own;$/;"	m	struct:orig_node
+tq_recv	batman.h	/^	uint8_t *tq_recv;$/;"	m	struct:neigh_node
+ttl	batman.h	/^	uint8_t  ttl;$/;"	m	struct:bat_packet
+tun_addr	bsd/tun.c	/^int8_t set_tun_addr(int32_t BATMANUNUSED(fd), uint32_t tun_addr, char *tun_ifname)$/;"	v
+tun_socket	linux/modules/gateway.h	/^	struct socket *tun_socket;$/;"	m	struct:gate_priv	typeref:struct:gate_priv::socket
+tun_socket	linux/modules/gateway24.h	/^	struct socket *tun_socket;$/;"	m	struct:gate_priv	typeref:struct:gate_priv::socket
+tunnel_running	posix/posix.c	/^uint8_t tunnel_running = 0;$/;"	v
+type	vis-types.h	/^	uint8_t type;$/;"	m	struct:vis_data
+udp	linux/modules/mod_batman.c	/^	struct udphdr udp;$/;"	m	struct:orig_packet	typeref:struct:orig_packet::udphdr	file:
+udp_data_ready	linux/modules/gateway.c	/^static void udp_data_ready(struct sock *sk, int len)$/;"	f	file:
+udp_data_ready	linux/modules/gateway24.c	/^static void udp_data_ready(struct sock *sk, int len)$/;"	f	file:
+udp_recv_sock	batman.h	/^	int32_t udp_recv_sock;$/;"	m	struct:batman_if
+udp_send_sock	batman.h	/^	int32_t udp_send_sock;$/;"	m	struct:batman_if
+udp_tunnel_sock	batman.h	/^	int32_t udp_tunnel_sock;$/;"	m	struct:batman_if
+universal	batman.h	/^	uint32_t universal;$/;"	m	struct:batgat_ioc_args
+universal	linux/modules/gateway.h	/^	uint32_t universal;$/;"	m	struct:batgat_ioc_args
+universal	linux/modules/gateway24.h	/^	uint32_t universal;$/;"	m	struct:batgat_ioc_args
+unix_client	batman.c	/^uint8_t unix_client = 0;$/;"	v
+unix_client	batman.h	/^struct unix_client {$/;"	s
+unix_if	batman.c	/^struct unix_if unix_if;$/;"	v	typeref:struct:unix_if
+unix_if	batman.h	/^struct unix_if {$/;"	s
+unix_listen	posix/unix_socket.c	/^void *unix_listen(void * BATMANUNUSED(arg)) {$/;"	f
+unix_sock	batman.h	/^	int32_t unix_sock;$/;"	m	struct:unix_if
+update_gw_list	batman.c	/^void update_gw_list(struct orig_node *orig_node, uint8_t new_gwflags, uint16_t gw_port)$/;"	f
+update_internal_clock	posix/posix.c	/^static void update_internal_clock(void)$/;"	f	file:
+update_orig	originator.c	/^void update_orig( struct orig_node *orig_node, struct bat_packet *in, uint32_t neigh, struct batman_if *if_incoming, unsigned char *hna_recv_buff, int16_t hna_buff_len, uint8_t is_duplicate, uint32_t curr_time ) {$/;"	f
+update_routes	batman.c	/^void update_routes(struct orig_node *orig_node, struct neigh_node *neigh_node, unsigned char *hna_recv_buff, int16_t hna_buff_len)$/;"	f
+usage	batman.c	/^void usage(void)$/;"	f
+use_gateway_module	bsd/kernel.c	/^int32_t use_gateway_module(void)$/;"	f
+use_gateway_module	linux/kernel.c	/^int32_t use_gateway_module(void)$/;"	f
+vdprintf	bsd/compat.c	/^int vdprintf(int d, const char *format, va_list ap)$/;"	f
+verbose_usage	batman.c	/^void verbose_usage(void)$/;"	f
+version	batman.h	/^	uint8_t  version;  \/* batman version field *\/$/;"	m	struct:bat_packet
+version	vis-types.h	/^	uint8_t version;$/;"	m	struct:vis_packet
+vip_addr	batman.h	/^	uint32_t vip_addr;$/;"	m	struct:gw_client
+vip_addr	linux/modules/gateway.h	/^	uint32_t vip_addr;$/;"	m	struct:gw_client
+vip_addr	linux/modules/gateway24.h	/^	uint32_t vip_addr;$/;"	m	struct:gw_client
+vip_hash	linux/modules/gateway.c	/^static struct hashtable_t *vip_hash;$/;"	v	typeref:struct:hashtable_t	file:
+vip_hash	linux/modules/gateway24.c	/^static struct hashtable_t *vip_hash;$/;"	v	typeref:struct:hashtable_t	file:
+vis_data	vis-types.h	/^struct vis_data {$/;"	s
+vis_if	batman.c	/^struct vis_if vis_if;$/;"	v	typeref:struct:vis_if
+vis_if	batman.h	/^struct vis_if {$/;"	s
+vis_packet	batman.c	/^unsigned char *vis_packet = NULL;$/;"	v
+vis_packet	vis-types.h	/^struct vis_packet {$/;"	s
+vis_packet_size	batman.c	/^uint16_t vis_packet_size = 0;$/;"	v
+wifi_if	batman.h	/^	uint8_t wifi_if;$/;"	m	struct:batman_if
+wip_addr	batman.h	/^	uint32_t wip_addr;$/;"	m	struct:gw_client
+wip_addr	linux/modules/gateway.h	/^	uint32_t wip_addr;$/;"	m	struct:gw_client
+wip_addr	linux/modules/gateway24.h	/^	uint32_t wip_addr;$/;"	m	struct:gw_client
+wip_hash	linux/modules/gateway.c	/^static struct hashtable_t *wip_hash;$/;"	v	typeref:struct:hashtable_t	file:
+wip_hash	linux/modules/gateway24.c	/^static struct hashtable_t *wip_hash;$/;"	v	typeref:struct:hashtable_t	file:
