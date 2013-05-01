@@ -124,8 +124,6 @@ int8_t disable_client_nat = 0;
 
 void usage(void)
 {
-	printf("Patch\n");
-	//test----------------------------------
 	fprintf( stderr, "Usage: batman [options] interface [interface interface]\n" );
 	fprintf( stderr, "       -a add announced network(s)\n" );
 	fprintf( stderr, "       -A delete announced network(s)\n" );
